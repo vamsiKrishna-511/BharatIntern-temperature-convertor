@@ -1,0 +1,122 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #fff59e;
+    background-image: url('https://media.istockphoto.com/id/672497522/photo/spring-background.jpg?s=170667a&w=0&k=20&c=I7_w3ZJwkHf6sWyxNHrm2eoYtswrm3DbM9BPZCuE8Nk=');
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    color: #9c3005;
+    font-size: 1rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    color: #b45a1d;
+    font-size: 40px;
+    text-align: center;
+}
+
+.temperature-converter {
+    background: #000000d0;
+    border-radius: 5px;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px 25px 20px;
+    min-width: 300px;
+    width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+.result {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.result-heading {
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.celsius-value {
+    border-bottom: 3px solid #ccc;
+    border-radius: 50px;
+    border-color: #ffffff;
+    padding: 10px;
+}
+
+label {
+    color: #ffffff;
+    font-size: 15px;
+    color: #ffffff;
+    margin-bottom: 5px;
+}
+
+input,select {
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 3px solid #ccc;
+  padding: 8px;
+  margin-bottom: 15px;
+  border-radius: 50px;
+  border-color: #ffffff;
+  color: #ffffff;
+}
+
+input:focus {
+    border: 3px solid #502203;
+}
+
+.degree-type {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 0;
+}
+
+.degree-field {
+    display: flex;
+    flex-direction: column;
+    width: 46%;
+}
+
+option {
+    background-color: #bb7d2c;
+    color: #f6f6f6;
+}
+
+#convert-btn {
+    background: linear-gradient(to bottom, #f37033, #b9230f);
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    color: #f6f6f6;
+    cursor: pointer;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-top: 10px;
+    padding: 12px 80px;
+    transition: all 0.3s ease-in;
+    border-radius: 50px;
+    margin-right: 150px;
+    margin-left: 150px;
+  }
+
+  #convert-btn:hover {
+    background: linear-gradient(to bottom, #e7af47, #dad72f);
+  }
